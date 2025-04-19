@@ -26,3 +26,5 @@ Despesa de capital (CapEx):
 Despesa operacional (OpEx):
  Gastar com produtos e serviços conforme necessário, pagamento conforme o uso.
  Cobrança imediata.
+
+Além de tudo isso, no laboratório, fomos introduzidos à interface do microsoft azure, aprendemos a personalizar o portal do jeito que preferirmos, fomos apresentados aos recursos e serviços do microsoft azure.
