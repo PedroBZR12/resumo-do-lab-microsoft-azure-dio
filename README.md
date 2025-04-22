@@ -12,13 +12,13 @@ As nuvens privadas são de responsabilidade da empresa ou organização que est�
 As nuvens públicas são de responsabilidade da fornecedora, como a Microsoft, por exemplo. Também fornece recursos para várias organizações e usuários e também é acessada via conexão de rede segura.
 As nuvens híbridas são o melhor dos dois tipos. Ela combina nuvens públicas e privadas para permitir que os aplicativos sejam executados no local mais adequado.
 
-- Comparação -
+- Comparação 
 
 A nuvem pública não tem nenhuma despesa de capital para escalar verticalmente, os aplicativos podem ser provisionados e desprovisionados rapidamente e as organizações pagam pelo o tempo e pelo o que utilizam.
 Já na nuvem privada, as organizações tem controle total sobre os recursos e a segurança, além de serem responsáveis pela manutenção e pelas atualizações do hardware.
 Enquanto na nuvem híbrida, as organizações determinam onde executar seus aplicativos, controlam a segurança e ainda possuem maior flexibilidade.
 
-- Despesas -
+- Despesas 
 
 Despesa de capital (CapEx):
  É o gasto inical de dinheiro em infraestrutura física.
@@ -29,4 +29,13 @@ Despesa operacional (OpEx):
 
 Além de tudo isso, no laboratório, fomos introduzidos à interface do microsoft azure, aprendemos a personalizar o portal do jeito que preferirmos, fomos apresentados aos recursos e serviços do microsoft azure.
 
+
+# Criando uma máquina virtual
+
+ Para criar uma máquina virtual, é necesssário clicar no ícone escrito "Máquinas virtuais"
+ ![image](https://github.com/user-attachments/assets/c9dbb847-5948-46c8-b592-9e1160e491d4)
+ depois disso, clicar em "criar"
+ ![image](https://github.com/user-attachments/assets/55f30e57-7440-4422-834a-5b4254c19503)
+
+ agora basta preencher os detalhes para criar sua máquina virtual pelo azure! Lembrando que é necessário selecionar quantas zonas de dispoibilidade você irá utilizar. O próprio microsoft Azure nos diz se há uma possibilidade de criar de uma maneira melhor nossas máquinas virtuais, como no caso de ter múltiplas zonas de disponibilidade.
 
