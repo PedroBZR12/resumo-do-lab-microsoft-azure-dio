@@ -39,3 +39,11 @@ Além de tudo isso, no laboratório, fomos introduzidos à interface do microsof
 
  agora basta preencher os detalhes para criar sua máquina virtual pelo azure! Lembrando que é necessário selecionar quantas zonas de dispoibilidade você irá utilizar. O próprio microsoft Azure nos diz se há uma possibilidade de criar de uma maneira melhor nossas máquinas virtuais, como no caso de ter múltiplas zonas de disponibilidade.
 
+
+
+# Configurando uma instância de Banco de Dados no Microsoft Azure
+
+ Para isso, precisamos ir ao portal dos serviços do microsoft azure e clicar no recurso da guia, do lado esquerdo, escrito "Banco de dados SQL" ![image](https://github.com/user-attachments/assets/374d58c7-8a4d-4259-902a-604d1348b1c9)
+Clicar em "criar" e preencher os detalhes do banco de dados, como nome e servidor (no caso do servidor, você pode criar um servidor), logo depois clicar em "Revisar + criar" ![image](https://github.com/user-attachments/assets/00a278b4-2222-4de7-bf56-24002360ec65)
+
+
