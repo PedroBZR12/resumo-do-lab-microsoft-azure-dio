@@ -28,3 +28,5 @@ Despesa operacional (OpEx):
  Cobrança imediata.
 
 Além de tudo isso, no laboratório, fomos introduzidos à interface do microsoft azure, aprendemos a personalizar o portal do jeito que preferirmos, fomos apresentados aos recursos e serviços do microsoft azure.
+
+
