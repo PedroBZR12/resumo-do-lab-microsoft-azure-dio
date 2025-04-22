@@ -47,3 +47,9 @@ Além de tudo isso, no laboratório, fomos introduzidos à interface do microsof
 Clicar em "criar" e preencher os detalhes do banco de dados, como nome e servidor (no caso do servidor, você pode criar um servidor), logo depois clicar em "Revisar + criar" ![image](https://github.com/user-attachments/assets/00a278b4-2222-4de7-bf56-24002360ec65)
 
 
+# Criando um grupo de recursos
+
+ Para isso, basta pesquisar na barra de pesquisa no topo da página por "grupo de recursos" e selecionar a opção que aparece. Depois disso, preencher as informações e seu grupo de recursos estará criado.
+
+ - Recurso Rede Virtual
+    Para criar uma rede virtual basta pesquisar por Rede Virtual na barra de pesquisa, selecionar a opção correspondente e, assim, preencher as informações. Automáticamente o recurso será criado para o grupo de recursos que você acabou de criar.
