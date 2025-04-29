@@ -53,3 +53,8 @@ Clicar em "criar" e preencher os detalhes do banco de dados, como nome e servido
 
  - Recurso Rede Virtual
     Para criar uma rede virtual basta pesquisar por Rede Virtual na barra de pesquisa, selecionar a opção correspondente e, assim, preencher as informações. Automáticamente o recurso será criado para o grupo de recursos que você acabou de criar.
+
+
+# Máquinas virtuais
+
+ aqui nós podemos escolher entre um ambiente de teste e um ambiente de produção para nossas máquinas virtuais, além disso, o tipo de carga, como usual, otimizado para memória ou computação otimizada, cada uma com seus beneficios. Depois disso, você deve preencher os detalhes da instância para poder criar sua máquina virtual. Preenchendo os detalhes, você deve preencher o nome, qual região ficará, quais as zonas de disponibilidade e quantas. Logo depois, configurar o tamanho de disco. Depois de configurar o disco, precisamos configurar a rede virtual. Depois o gerenciamento, com a parte de indentidade, o desligamento automático, backup, atualizações. Depois o monitoramento. Depois as opções avançadas, as tags e finalmente podemos criar a máquina.
