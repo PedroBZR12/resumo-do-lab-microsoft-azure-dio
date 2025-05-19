@@ -58,3 +58,22 @@ Clicar em "criar" e preencher os detalhes do banco de dados, como nome e servido
 # Máquinas virtuais
 
  aqui nós podemos escolher entre um ambiente de teste e um ambiente de produção para nossas máquinas virtuais, além disso, o tipo de carga, como usual, otimizado para memória ou computação otimizada, cada uma com seus beneficios. Depois disso, você deve preencher os detalhes da instância para poder criar sua máquina virtual. Preenchendo os detalhes, você deve preencher o nome, qual região ficará, quais as zonas de disponibilidade e quantas. Logo depois, configurar o tamanho de disco. Depois de configurar o disco, precisamos configurar a rede virtual. Depois o gerenciamento, com a parte de indentidade, o desligamento automático, backup, atualizações. Depois o monitoramento. Depois as opções avançadas, as tags e finalmente podemos criar a máquina.
+
+--
+
+# Análise de Sentimentos com Language Stduio no Azure AI
+ IA: sempre lembrar que IA é um repositório de informação.
+- Language Studio
+ Análise de texto: Através do language studio podemos criar um projeto que detecta a linguagem predominante, o sentimento que há na frase e as frases-chave.
+Exemplo:  ![image](https://github.com/user-attachments/assets/e5fcb2a3-cd40-46e2-b7a6-84df300bc3af)
+Podemos inserir perguntas e respostas, fornecer um documento com perguntas frequentes e existentes e usando um bate-papo integrado (chat gpt), assim fornecendo dados e conhecimento para nossa IA.
+
+- Serviço de bot do Azure
+  É mais eficiente conforme a base de dados. O bot, através da IA, vai fornecer a resposta para o usuário com base nas frases-chave. Lembrar de sempre testar a base de dados da IA.
+  É uma plataforma baseada em nuvem, tem integração com AI Language e outros serviços e possui conectividade com vários canais.
+  É muito útil para "filtrar" dúvidas comuns e levar apenas casos especificos e não genéricos para atendentes profissionais.
+
+- Compreensão da linguagem coloquial
+  Dialogo do dia a dia, sem formalidade. Para a compreensão da IA sobre a linguagem do nosso dia a dia podemos separar em três componentes principais, a declaração do enunciado, a entidade (o item que vai ser reconhecido) e a intenção, sendo a identificação do que queremos que a IA nos responda
+- Reconhecimento e síntese da fala
+  Usa recursos de fala para texto e transcreve fala audível em texto (Possui esse serviço no Azure como *Fala*). Também para converter texto em fala para gerar fala audível a partir de texto.
