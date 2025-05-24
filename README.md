@@ -91,5 +91,9 @@ O enriquecimento de IA torna o conteúdo mais útil para fins de pesquisa.
 # LAB
  Primeiro criamos um novo AI Azure Search e depois selecionamos a oferta Basica, logo após isso selecionamos o grupo de recursos, damos o nome para o recurso, colocamos a localização e clicamos em review + create. Agora criamos um recurso de machine learn, criando um recurso novo de serviços do Azure AI, com os mesmos passos de sempre, colocando o grupo de recursos, o nome, a região e o tipo de oferta. Também precisamos criar uma conta de armazenamento e preenchemos os dados dela, com nome, grupo de recursos, região, performance e redundância (modelo de réplica dos dados). Após criarmos um novo container na account storage colocamos alguns documentos para sevir como dados para alimentar nossa estrutura. Indo no AI Search nós importamos os dados do nosso account storage, precisamos apontar aonde está esse lugar. E agora podemos fazer uma busca por automação.
  
+# Explorando os recursos de AI generativa com copilot e OpenAI
+- Planejar uma solução de AI generativa responsável inclui quatro fases que são elas: identificar, medida, mitigar e operar.
+![image](https://github.com/user-attachments/assets/e022efc5-7541-43fc-861f-74f2e3a80cd2)
 
+O microsoft copilot é uma AI generativa na qual podemos interagir de maneira humana, fazendo perguntas e o mesmo nos responde, ele gera a resposta em tempo real. Ele também pode gerar imagens.
 
