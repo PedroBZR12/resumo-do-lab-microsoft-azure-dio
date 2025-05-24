@@ -77,3 +77,19 @@ Podemos inserir perguntas e respostas, fornecer um documento com perguntas frequ
   Dialogo do dia a dia, sem formalidade. Para a compreensão da IA sobre a linguagem do nosso dia a dia podemos separar em três componentes principais, a declaração do enunciado, a entidade (o item que vai ser reconhecido) e a intenção, sendo a identificação do que queremos que a IA nos responda
 - Reconhecimento e síntese da fala
   Usa recursos de fala para texto e transcreve fala audível em texto (Possui esse serviço no Azure como *Fala*). Também para converter texto em fala para gerar fala audível a partir de texto.
+
+# Mineração de conhecimento
+-  Encontrar palavras e frases chave no meio dos dados/informações para conseguir otimizar a coleta de dados. A Azure cognitive Search é a plataforma de mineração de conhecimento alimentada por AI do azure.
+-  Ingestão de dados: ![image](https://github.com/user-attachments/assets/f226ae58-d5fd-424d-9ce0-9e88c7bcc7a7)
+-  Enriquecimento (vetorizar as informações para permitir ser pesquisável mais fácilmente): ![image](https://github.com/user-attachments/assets/71a7d1cc-4849-4343-8efd-45d1f6674426)
+-  Explorar: ![image](https://github.com/user-attachments/assets/8bdcbe6d-0744-4db3-a3cd-f14e58990d43)
+O enriquecimento de IA torna o conteúdo mais útil para fins de pesquisa.
+![image](https://github.com/user-attachments/assets/82792f2e-5b38-4ef0-8918-74dcf934d30f)
+![image](https://github.com/user-attachments/assets/01dc3cb2-9f56-4b30-a493-1645950a50f1)
+
+
+# LAB
+ Primeiro criamos um novo AI Azure Search e depois selecionamos a oferta Basica, logo após isso selecionamos o grupo de recursos, damos o nome para o recurso, colocamos a localização e clicamos em review + create. Agora criamos um recurso de machine learn, criando um recurso novo de serviços do Azure AI, com os mesmos passos de sempre, colocando o grupo de recursos, o nome, a região e o tipo de oferta. Também precisamos criar uma conta de armazenamento e preenchemos os dados dela, com nome, grupo de recursos, região, performance e redundância (modelo de réplica dos dados). Após criarmos um novo container na account storage colocamos alguns documentos para sevir como dados para alimentar nossa estrutura. Indo no AI Search nós importamos os dados do nosso account storage, precisamos apontar aonde está esse lugar. E agora podemos fazer uma busca por automação.
+ 
+
+
